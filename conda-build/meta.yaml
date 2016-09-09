@@ -1,0 +1,16 @@
+package:
+# 1.Change to your package name and version that you have assigned with cookiecutter
+  name:  your_package_name
+  version: "1.0.0"
+
+source:
+# 2. Change ... to your package directory
+  path: /source/path
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
